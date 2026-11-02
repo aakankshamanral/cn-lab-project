@@ -1,0 +1,3 @@
+scenario,topology,left_subnet,right_subnet,router_link_mbps,tcp_offered_mbps,udp_offered_mbps,tcp_throughput_mbps,udp_throughput_mbps,udp_latency_ms,udp_jitter_ms,udp_packet_loss_percent,tcp_packets_sent,tcp_packets_delivered,udp_packets_sent,udp_packets_delivered,udp_packets_dropped
+Baseline,"6 end devices, 2 switches, 1 router",192.168.1.0/24,192.168.2.0/24,5.0,4.0,3.0,2.826,2.174,167.363,1.246,27.072,9964,7065,7517,5434,2035
+QoS Enabled,"6 end devices, 2 switches, 1 router",192.168.1.0/24,192.168.2.0/24,5.0,4.0,3.0,2.808,2.192,12.881,0.706,27.072,9964,7019,7517,5480,2035
